@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$bg: #fff;
+$primary-color: #1f8fff;
+$secondary-color: #be3dff;
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: linear-gradient(
+    to top,
+    $primary-color 0%,
+    $secondary-color 100%
+  );
+}
